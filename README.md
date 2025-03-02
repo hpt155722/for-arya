@@ -2,8 +2,6 @@
 
 a desktop app to showcase various handrawn motivational quotes 
 
-for arya, because you lost you job <3
-
 <br>
 
 

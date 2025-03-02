@@ -1,0 +1,53 @@
+{
+	"name": "projfeelbetter",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"scripts": {
+		"pack": "electron-packager . 'feel better!' --platform=win32 --arch=x64 --out=dist/ --icon=icon.ico",
+		"test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development electron .",
+    "build": "cross-env NODE_ENV=production electron-builder"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "An app to make you feel better about losing your job",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"electron": "^34.3.0",
+		"electron-builder": "^25.1.8",
+		"electron-packager": "^17.1.2"
+	},
+	"build": {
+		"appId": "com.example.app",
+		"productName": "feel better!",
+		"icon": "icon.ico",
+		"files": [
+			"**/*",
+			"src/images/**/*"
+		],
+		"extraResources": [
+			"src/images/**/*"
+		],
+		"directories": {
+			"output": "dist"
+		},
+		"win": {
+			"target": [
+				"nsis"
+			],
+			"icon": "icon.ico"
+		},
+		"mac": {
+			"target": [
+				"dmg"
+			]
+		},
+		"linux": {
+			"target": [
+				"AppImage",
+				"deb"
+			]
+		}
+	}
+}

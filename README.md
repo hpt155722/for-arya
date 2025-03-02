@@ -10,7 +10,7 @@ for arya, because you lost you job <3
 ### ☆ ───── How to Install ───── ☆
 
 <br>
-1. Download to <b><i> feel better - Installer </i></b> <br>
+1. Download to <b><i> feel better - Installer </i></b>: https://drive.google.com/file/d/1vaXGw1GEl6fVgByuN-Zu8byaT4qFJZiS/view?usp=sharing <br>
 2. Install file<br>
 3. Run <b><i> feel better </i></b> applciation
 <br>
